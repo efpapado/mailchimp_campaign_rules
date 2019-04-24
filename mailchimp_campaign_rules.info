@@ -1,0 +1,9 @@
+name = Mailchimp Campaign Rules
+description = Integration of rules module to mailchimp_campaigns.
+package = Other
+core = 7.x
+
+dependencies[] = mailchimp_campaign
+dependencies[] = rules
+
+files[] = includes/mailchimp_campaign_rules.eval.inc
